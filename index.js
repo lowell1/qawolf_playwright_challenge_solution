@@ -8,8 +8,8 @@
   });
 
   try {
-    const email = readline.question("What is your Netflix email? ");
-    const password = readline.question("What is your Netflix password? ");
+    const email = readline.question("What is your Netflix email?");
+    const password = readline.question("What is your Netflix password?");
 
     const page = await browser.newPage();
     await page.goto("https://www.netflix.com/login");
